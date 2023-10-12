@@ -16,7 +16,7 @@
 
 ## Demo
 
-[Enlace a una demostración en vivo de tu proyecto.]
+[]
 
 ## Características
 
