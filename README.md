@@ -26,7 +26,8 @@
 
 ## Capturas de Pantalla
 
-[Incluye capturas de pantalla para mostrar la apariencia del proyecto.]
+[Incluye capturas de p![Captura de pantalla 2023-09-11 204755](https://github.com/gfelix01/MyResume/assets/98698512/78192b8e-233a-4016-8f5b-bcb478894d7e)
+antalla para mostrar la apariencia del proyecto.]
 
 ## Requisitos
 
