@@ -10,9 +10,12 @@ Una colección de mis proyectos personales.
 
 ## Capturas de Pantalla
 
-[![Captura de pantalla de la aplicación web](https://i.imgur.com/1234567.png)](https://github.com/gfelix01/MyResume/blob/master/screenshots/screenshot1.png)
-[![Captura de pantalla de la aplicación móvil](https://i.imgur.com/9876543.png)](https://github.com/gfelix01/MyResume/blob/master/screenshots/screenshot2.png)
-[![Captura de pantalla del juego](https://i.imgur.com/asdfghjk.png)](https://github.com/gfelix01/MyResume/blob/master/screenshots/screenshot3.png)
+[![Captura de pantalla de la aplicación web](![image](https://github.com/gfelix01/MyResume/assets/98698512/bcbc8ad9-fc33-4d04-8875-59bb11079938)
+)
+[![Captura de pantalla de la aplicación móvil](![image](https://github.com/gfelix01/MyResume/assets/98698512/6a500ced-e416-4dc1-91ec-16b5727e9516)
+)
+[![Captura de pantalla del juego](![image](https://github.com/gfelix01/MyResume/assets/98698512/8ffb87a1-72da-4c9a-9705-bf69e6b309d1)
+)
 
 ## Tecnologías Utilizadas
 
