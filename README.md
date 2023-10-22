@@ -1,43 +1,30 @@
-# Portafolio 
+# Portafolio
 
-[Descripción concisa del proyecto.]
-
-
-
-
-
-
+Una colección de mis proyectos personales.
 
 ## Características
 
-- [Característica 1]
-- [Característica 2]
-- [Característica 3]
+- Una variedad de proyectos, incluyendo aplicaciones web, aplicaciones móviles y juegos.
+- Todos los proyectos están bien documentados y son fáciles de usar.
+- Los proyectos se actualizan regularmente con nuevas características y correcciones de errores.
 
 ## Capturas de Pantalla
 
-[![image](https://github.com/gfelix01/MyResume/assets/98698512/7324c23c-dd58-4093-aa4b-28d9f430cf1f)
-]
-
-
-
-
-
-
+[![Captura de pantalla de la aplicación web](https://i.imgur.com/1234567.png)](https://github.com/gfelix01/MyResume/blob/master/screenshots/screenshot1.png)
+[![Captura de pantalla de la aplicación móvil](https://i.imgur.com/9876543.png)](https://github.com/gfelix01/MyResume/blob/master/screenshots/screenshot2.png)
+[![Captura de pantalla del juego](https://i.imgur.com/asdfghjk.png)](https://github.com/gfelix01/MyResume/blob/master/screenshots/screenshot3.png)
 
 ## Tecnologías Utilizadas
 
 - HTML
 - CSS
 - JavaScript
-- Bootstrap
 
-[Listas las principales tecnologías que has utilizado en tu proyecto.]
 
 ## Contribución
 
-
+Si estás interesado en contribuir a este proyecto, por favor, lee la [guía de contribución](CONTRIBUTING.md).
 
 ## Licencia
 
-Este proyecto está licenciado bajo la [Nombre de la Licencia]. Consulta el archivo [LICENSE.md](LICENSE.md) para obtener más detalles.
+Este proyecto está licenciado bajo la [Licencia Pública General de GNU](LICENSE.md).
