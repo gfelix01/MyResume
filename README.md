@@ -10,15 +10,17 @@ Una colección de mis proyectos personales.
 
 ## Capturas de Pantalla
 
-[![Captura de pantalla de la aplicación web](https://i.imgur.com/1234567.png)](https://github.com/gfelix01/MyResume/blob/master/screenshots/screenshot1.png)
-[![Captura de pantalla de la aplicación móvil](https://i.imgur.com/9876543.png)](https://github.com/gfelix01/MyResume/blob/master/screenshots/screenshot2.png)
-[![Captura de pantalla del juego](https://i.imgur.com/asdfghjk.png)](https://github.com/gfelix01/MyResume/blob/master/screenshots/screenshot3.png)
+![Captura de pantalla 2023-10-22 092804](https://github.com/gfelix01/MyResume/assets/98698512/d8857850-9a16-4a35-bd88-73b39d3ad00c)
+
+
+
 
 ## Tecnologías Utilizadas
 
 - HTML
 - CSS
 - JavaScript
+- Boostrap
 
 
 ## Contribución
