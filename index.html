@@ -630,15 +630,13 @@
             </div>
           </div>
 
-
-
           <div class="col-lg-8 mt-5 mt-lg-0">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form id="contact-form" class="php-email-form" action="#" method="POST">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                 </div>
-                <div class="col-md-6 form group mt-3 mt-md-0">
+                <div class="col-md-6 form-group mt-3 mt-md-0">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                 </div>
               </div>
@@ -651,7 +649,7 @@
               <div class="my-3">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
+                <div id="success-message" class="sent-message">Your message has been sent. Thank you!</div>
               </div>
               <div class="text-center">
                 <button type="submit">Send Message</button>
@@ -702,6 +700,8 @@
   <script src="assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
   <script src="assets/js/main.js"></script>
 </body>
 
