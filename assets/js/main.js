@@ -268,3 +268,38 @@
   new PureCounter();
 
 })()
+
+document.addEventListener('DOMContentLoaded', function () {
+  const contactForm = document.querySelector('.php-email-form');
+  const contactName = document.getElementById('name');
+  const contactEmail = document.getElementById('email');
+  const contactSubject = document.getElementById('subject');
+  const message = document.querySelector('textarea');
+  const contactMessage = document.querySelector('.sent-message');
+
+  const sendEmail = (e) => {
+      e.preventDefault();
+
+      if (contactName.value === '' || contactEmail.value === '' || contactSubject.value === '' || message.value === '') {
+          contactMessage.classList.remove('color-light');
+          contactMessage.classList.add('color-dark');
+          contactMessage.textContent = 'Please fill in all input fields.';
+      } else {
+          emailjs.sendForm('service_iannqf9', 'template_l7gl5qv', contactForm, 'g5yS7kFZ6s_wl4Y6b')
+              .then(() => {
+                  contactMessage.classList.add('color-light');
+                  contactMessage.textContent = 'Message sent ✅👌🏾';
+
+                  contactForm.reset();
+              })
+              .catch(function (error) {
+                  contactMessage.classList.remove('color-light');
+                  contactMessage.classList.add('color-dark');
+                  contactMessage.textContent = 'Error sending message. Please try again later.';
+                  console.error('Error sending email:', error);
+              });
+      }
+  };
+
+  contactForm.addEventListener('submit', sendEmail);
+});
