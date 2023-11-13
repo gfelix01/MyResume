@@ -288,7 +288,7 @@ document.addEventListener('DOMContentLoaded', function () {
           emailjs.sendForm('service_v906rkv', 'template_l7gl5qv', contactForm, 'jB9XplLc45O1JkF1X')
               .then(() => {
                   contactMessage.classList.add('color-light');
-                  contactMessage.textContent = 'Message sent ✅👌🏾';
+                  contactMessage.textContent = 'Message sent';
 
                   contactForm.reset();
               })
