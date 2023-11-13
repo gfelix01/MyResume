@@ -285,7 +285,7 @@ document.addEventListener('DOMContentLoaded', function () {
           contactMessage.classList.add('color-dark');
           contactMessage.textContent = 'Please fill in all input fields.';
       } else {
-          emailjs.sendForm('service_v906rkv', 'template_l7gl5qv', contactForm, 'g5yS7kFZ6s_wl4Y6b')
+          emailjs.sendForm('service_v906rkv', 'template_l7gl5qv', contactForm, 'jB9XplLc45O1JkF1X')
               .then(() => {
                   contactMessage.classList.add('color-light');
                   contactMessage.textContent = 'Message sent ✅👌🏾';
