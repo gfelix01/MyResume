@@ -440,7 +440,7 @@ h6 {
 }
 
 .rounded-image {
-  border-radius: 50%;
+  border-radius: 60%;
   /* Hace que la imagen tenga esquinas redondeadas */
   width: 300px;
   /* Puedes ajustar el tamaño según tu diseño */
