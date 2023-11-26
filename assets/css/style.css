@@ -289,7 +289,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: rgba(64, 57, 57, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -308,7 +308,7 @@ h6 {
 #hero p {
   color: #45505b;
   margin: 15px 0 0 0;
-  font-size: 26px;
+  font-size: 30px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -438,6 +438,18 @@ h6 {
 .about .content p:last-child {
   margin: 10px 0;
 }
+
+.rounded-image {
+  border-radius: 50%;
+  /* Hace que la imagen tenga esquinas redondeadas */
+  width: 300px;
+  /* Puedes ajustar el tamaño según tu diseño */
+  height: 300px;
+  /* Puedes ajustar el tamaño según tu diseño */
+  object-fit: cover;
+  /* Para asegurarte de que la imagen se ajuste dentro del área redonda */
+}
+
 
 /*--------------------------------------------------------------
 # Facts
