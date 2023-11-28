@@ -11,8 +11,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #272829;
-  background-color: #011426;
+  color: #abaea3;
+  background-color: #070c10c0;
 }
 
 a {
@@ -32,6 +32,8 @@ h4,
 h5,
 h6 {
   font-family: "Raleway", sans-serif;
+
+
 }
 
 /*--------------------------------------------------------------
@@ -274,9 +276,10 @@ h6 {
 # Hero Section
 --------------------------------------------------------------*/
 #hero {
-  width: 65%;
+  width: 50%;
   height: 100vh;
   background: url("../img/yo.jpg") no-repeat top left;
+  border-radius: 30rem;
   background-size: cover;
   background-position: top right;
   position: relative;
