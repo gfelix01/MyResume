@@ -277,7 +277,7 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 50%;
-  height: 100vh;
+  height: 80vh;
   background: url("../img/yo.jpg") no-repeat top left;
   border-radius: 30rem;
   background-size: cover;
@@ -294,12 +294,13 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(64, 57, 57, 0.8);
+  background: rgba(97, 90, 90, 0.8);
   position: absolute;
   bottom: 0;
   top: 0;
   left: 0;
   right: 0;
+  box-shadow: 0 0 10px #86b7fe;
 }
 
 #hero h1 {
@@ -445,13 +446,14 @@ h6 {
 }
 
 .rounded-image {
-  border-radius: 60%;
+  border-radius: 70%;
   /* Hace que la imagen tenga esquinas redondeadas */
   width: 300px;
   /* Puedes ajustar el tamaño según tu diseño */
   height: 300px;
   /* Puedes ajustar el tamaño según tu diseño */
   object-fit: cover;
+  box-shadow: 0 0 10px #86b7fe;
   /* Para asegurarte de que la imagen se ajuste dentro del área redonda */
 }
 
@@ -463,15 +465,15 @@ h6 {
   padding: 25px;
   margin: 30px 0;
   text-align: center;
-  background: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: #ffffff;
+  box-shadow: 0 0 10px #86b7fe;
 }
 
 .facts .count-box i {
   position: relative;
   font-size: 24px;
-  background: #0563bb;
-  color: #fff;
+  background: #86b7fe;
+  color: #ffffff;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -484,7 +486,7 @@ h6 {
 .facts .count-box span {
   font-size: 32px;
   font-weight: bold;
-  color: #011426;
+  color: #073b6c;
 }
 
 .facts .count-box p {
@@ -501,6 +503,7 @@ h6 {
   display: block;
   background: none;
   border-radius: 0;
+
 }
 
 .skills .progress .skill {
@@ -510,7 +513,7 @@ h6 {
   display: block;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
-  color: #45505b;
+  color: #1c5996;
 }
 
 .skills .progress .skill .val {
@@ -537,7 +540,7 @@ h6 {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #45505b;
+  color: #456585;
 }
 
 .resume .resume-item {
@@ -671,6 +674,7 @@ h6 {
   content: "";
   width: 48px;
   height: 48px;
+  box-shadow: 0 0 10px #86b7fe;
   position: absolute;
   top: 35px;
   left: 35px;
@@ -756,6 +760,7 @@ h6 {
 
 .portfolio-details .portfolio-details-slider img {
   width: 100%;
+  box-shadow: 0 0 10px #86b7fe;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
@@ -819,8 +824,8 @@ h6 {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
-  box-shadow: 0px 5px 90px 0px rgba(110, 123, 131, 0.05);
+  background: #ffffffa1;
+  box-shadow: 0 0 10px #86b7fe;
 }
 
 .services .icon-box .icon {
@@ -941,6 +946,7 @@ h6 {
   width: 100%;
   background: #fff;
   border-radius: 5px;
+  box-shadow: 0 0 10px #86b7fe;
 }
 
 .contact .info i {
@@ -988,6 +994,7 @@ h6 {
   width: 100%;
   background: #fff;
   border-radius: 5px;
+  box-shadow: 0 0 10px #86b7fe;
 }
 
 .contact .php-email-form .form-group {
@@ -1037,7 +1044,7 @@ h6 {
 
 .contact .php-email-form input,
 .contact .php-email-form textarea {
-  border-radius: 4px;
+  border-radius: 1rem 5rex;
   box-shadow: none;
   font-size: 14px;
 }
