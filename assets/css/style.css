@@ -12,7 +12,7 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #0e1345;
-  background-color: #070c10c0;
+  background-color: #a0b3c310;
 }
 
 a {
@@ -21,7 +21,7 @@ a {
 }
 
 a:hover {
-  color: #067ded;
+  color: #acd7ff;
   text-decoration: none;
 }
 
@@ -178,7 +178,7 @@ h6 {
   transition: 0.3s;
   font-size: 15px;
   border-radius: 50px;
-  background: #37538c39;
+  background: #46629ad0;
   height: 56px;
   width: 100%;
   overflow: hidden;
@@ -193,7 +193,7 @@ h6 {
 .nav-menu a span,
 .nav-menu a:focus span {
   padding: 0 5px 0 7px;
-  color: #45505b;
+  color: #fafafa;
 }
 
 @media (min-width: 992px) {
@@ -256,7 +256,7 @@ h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #45505b;
+  color: #fefefef6;
 }
 
 .mobile-nav-active {
